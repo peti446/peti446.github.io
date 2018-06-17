@@ -835,6 +835,16 @@ footer {
     }
 }
 
+#ProjectMedia
+{
+    .video{
+        iframe{
+            width: 560px;
+            height: 315px;
+        }
+    }
+}
+
 .ProjectSiteCategory
 {
     padding: 50px 15px;
@@ -844,6 +854,36 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+    }
+}
+
+.download-links {
+    text-align: center;
+
+    ul {
+        margin: 5px 0 0 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 10px;
+        padding: 0 0 0 10px;
+        font-size: 1.25em;
+        list-style: none;
+    }
+
+    a {
+        display: block;
+        color: $text;
+        padding: 10px;
+
+        &:hover {
+            color: $base-color;
+        }
+    }
+    span{
+        margin: 0 0 0 10px;
     }
 }
 /*
