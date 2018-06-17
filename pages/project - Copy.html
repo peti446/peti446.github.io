@@ -26,13 +26,19 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="/index.html">Home</a>
+                <a href="/index.html" class="no-scroll">Home</a>
             </li>
             <li>
-                <a href="#demo">Demo</a>
+            <a href="#ProjectDescription">Description</a>
+                </li>
+            <li>
+                <a href="#ProjectMedia">Media</a>
             </li>
             <li>
                 <a href="#ProjectDownload">Download</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
             </li>
         </ul>
     </header>
@@ -46,16 +52,66 @@
 	</div>
 
 	<div id="ProjectDescription" class="ProjectSiteCategory">
-		<h2 class="heading">Description</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Description</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Class halls Account Reporter is a little project for World of Warcraft, it is written in Lua and uses some of the custom function provided by blizzard. The aim for this addon is to collect and store the data from all the characters of a player. By doing so,  the player can then access this data from any character and view the status they are on.
+                    </p>
+                </div>
+            </div>
+        </div>
 	</div>
     
     <div id="ProjectMedia" class="background-alt ProjectSiteCategory">
-            <h2 class="heading">Media</h2>
+        <h2 class="heading">Media</h2>
+        <div class="container">
+            <div class="row">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/jWQbQeaCSKI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <p>Community video done by: <a href="https://www.youtube.com/channel/UCXDsKR7vufMymEU891IjrEg" target="_blank">TheRealKent</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
 	<div id="ProjectDownload" class="ProjectSiteCategory">
-		<h2 class="heading">Download</h2>
+        <h2 class="heading">Download</h2>
+        <div class="container">
+            <div class="row download-links">
+                <ul>
+                    <li>
+                        <a href="https://www.curseforge.com/wow/addons/class-halls-account-reporter" target="_blank">
+                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download</span></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/peti446/ClassHallAccountReporter" target="_blank">
+                            <i class="fa fa-file-code-o" aria-hidden="true"><span>Source</span></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 	</div>
+
+
+    <div id="contact">
+            <h2>Get in Touch</h2>
+            <div id="contact-form">
+                <form method="POST" action="https://formspree.io/peti446@gmail.com">
+                    <input type="hidden" name="_subject" value="Contact me" />
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End #contact -->
 
 	<footer>
         <div class="container">
