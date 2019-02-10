@@ -22,7 +22,6 @@
 
 	  gtag('config', 'UA-89934930-2');
 	</script>
-
 </head>
 
 <body>
@@ -56,8 +55,8 @@
 
 	<div id="Project-Title">
         <div id="content">
-            <h1>The Unknown Etiam</h1>
-		    <h2>CPU Based Game Engine<h2>
+            <h1>Defend the Relic</h1>
+		    <h2>Simple Networking Shoote<h2>
         </div>
 	</div>
 
@@ -69,28 +68,19 @@
                 </div>
                 <div class="col-md-8">
                     <p style="text-align: left;">
-						Tasked by the University, we needed to create a 2D Game engine from scratch and generate a demo using this engine. We were given only an in-house library, made by the module leader that abstracted some of the functionality away from us:
-					</p>
-						<ul style="text-align: left;">
-							<li>Input</li>
-							<li>Access to the window pixel data by the user of pointers</li>
-							<li>Loading/Unloading sounds and plays them</li>
-						</ul>
-						<p style="text-align: left;">The engine and demo include the following functionality:</p>
-						<ul style="text-align: left;">
-							<li>UI system</li>
-							<li>Game Cycling</li>
-							<li>A* Pathfinding for NPC</li>
-							<li>Spell system</li>
-							<li>Level system with scaling stats</li>
-							<li>Alpha-blended for drawing calls</li>
-							<li>Collision detection</li>
-							<li>Loading of map from XML files</li>
-							<li>Custom Mouse Icon</li>
-							<li>Screen space culling - We only draw what we see</li>
-						</ul>
-						<p  style="text-align: left;">During the development of the engine and demo, I pushed my ability to create effective but efficient c++ code, and optimise it where possible. Also, some of the systems like the A* and UI system from scratch was very challenging as it was my first time implementing systems like this by myself, but it helped me to understand even further how engines work and help me develop my coding and problem-solving skills.
-					</p>
+                        This little demo was created using SFML and TGUI as a base engine and CryptoPP for the encryption algorithm. The game itself is a simple 2vs2 multiplayer shooter where the winning team is the one with the highest score. The main focus on this project was the networking part so the gameplay was simple but with enough complexity to use network replication over it.</br>
+                    </br>This demo includes the following features:
+                    </p>
+                    <ul style="text-align: left;">
+                        <li>AES key interchange.</li>
+                        <li>AES encryption for client-server messages.</li>
+                        <li>Simple lobby system without any login.</li>
+                        <li>Usage of TCP and UDP to get the best performance.</li>
+                        <li>UDP Broadcast to search for a local server.</li>
+                        <li>Encoding/decoding of data into/from bytes</li>
+                        <li>Support of concurrent running games.</li>
+                        <li>Player drop/disconnection handling</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -101,7 +91,7 @@
         <div class="container">
             <div class="row">
                 <div class="video">
-					<iframe src="https://www.youtube.com/embed/THaijsp57ls" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/jMrIQfHsaFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -113,9 +103,20 @@
             <div class="row download-links">
                 <ul>
                     <li>
-                        <a href="https://1drv.ms/u/s!Ao9Q2rishGIFjoNhe2NaiKdsmIVp6g" target="_blank">
-                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download (Windows)</span></i>
+                        <a href="https://1drv.ms/u/s!Ao9Q2rishGIFldA1pkMhfrCHTZ1OEQ" target="_blank">
+                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download Client Windows</span></i>
                         </a>
+                    </li>
+                    <li>
+                        <a href="https://1drv.ms/u/s!Ao9Q2rishGIFldA3AxnN6J89Awbi2w" target="_blank">
+                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download Client Linux</span></i>
+                        </a>
+                    </li>
+                    <li>
+                    <a href="https://1drv.ms/u/s!Ao9Q2rishGIFldA4Jhoq0Xf91JBYRw" target="_blank">
+                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download Server</span></i>
+                    </a>
+                    <P style="font-size: 8pt; font-style: italic;">Requieres<a style="display: inline" href="https://elixir-lang.org/install.html" target="_blank">elixir 1.4</a></P>
                     </li>
                     <!--<li>
                         <a href="https://github.com/peti446/" target="_blank">
