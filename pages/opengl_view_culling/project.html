@@ -55,8 +55,8 @@
 
 	<div id="Project-Title">
         <div id="content">
-            <h1>Class Halls Account Reporter</h1>
-		    <h2>A world of Warcraft Addon<h2>
+            <h1>Terrain tessellation and View Frustum Culling</h1>
+		    <h2>OpenGL<h2>
         </div>
 	</div>
 
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Class halls Account Reporter is a little project for World of Warcraft, it is written in Lua and uses some of the custom function provided by blizzard. The aim for this addon is to collect and store the data from all the characters of a player. By doing so,  the player can then access this data from any character and view the status they are on.
+                        In this project written entirely in C++, I created an algorithm to generate a terrain to which I can then apply algorithms such as a height map, displacement maps, noise and bezier curves to get the intended terrain output. The resolution of the terrain would be equals to the resolution of the map, but that may cause performance issues with a bigger map, so View frustum culling was applied to the map to only render the parts that are in view of the camera and completely discard the one outside. To achieve this, the terrain was divided into sub-patches and re-index them so that they are drawn without any seems, using then AABB to detect wetever a patch was inside or outside the frustum.
                     </p>
                 </div>
             </div>
@@ -80,8 +80,7 @@
         <div class="container">
             <div class="row">
                 <div class="video">
-                    <iframe src="https://www.youtube.com/embed/jWQbQeaCSKI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <p>Community video done by: <a href="https://www.youtube.com/channel/UCXDsKR7vufMymEU891IjrEg" target="_blank">TheRealKent</a></p>
+                    <iframe src="https://www.youtube-nocookie.com/embed/_y8M8lO_Qi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -93,13 +92,8 @@
             <div class="row download-links">
                 <ul>
                     <li>
-                        <a href="https://www.curseforge.com/wow/addons/class-halls-account-reporter" target="_blank">
-                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download</span></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/peti446/ClassHallAccountReporter" target="_blank">
-                            <i class="fa fa-file-code-o" aria-hidden="true"><span>Source</span></i>
+                        <a href="https://1drv.ms/u/s!Ao9Q2rishGIFjoVP-yIzlys5eRpw7w" target="_blank">
+                            <i class="fa fa-cloud-download" aria-hidden="true"><span>Download (Windows)</span></i>
                         </a>
                     </li>
                 </ul>
